@@ -1,0 +1,60 @@
+*{
+font-family: Arial;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+	background:#F5F5F5;}
+
+
+
+.card{
+	background-color: #FFFFFF;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	width: 500px;
+	min-width:100px;
+	margin:0 auto;
+	transition: 0.5s;}
+	
+.card:hover	{
+	transform: scale(1.05);
+}
+.hart{padding-right:100px; }
+
+.card h3 {
+	margin:8px;
+	font-size:22px;
+	padding-bottom:20px;
+}
+
+
+.card .info{
+	display:block;
+	margin:8px;
+}
+
+.card .prise{
+	margin:8px;
+	color:#0000FF;
+	font-weight:bold;
+}
+
+.card .old-prise{
+	font-size:14px;
+	color: red;	
+	text-decoration:line-through;
+	margin-left: 12px;
+}
+
+button{
+	width:150px;
+	height:50px;
+	background-color:green;
+	color:white;
+    padding:10px 2px; 
+	margin-left:12px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
