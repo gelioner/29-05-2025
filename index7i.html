@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="CSS7i/styles7i.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="index.html">Переход на Главную страницу практических работ</a>
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">bistro &emsp;<span>Бабка Китчен</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Бабка Китчен</h1>
+                <p class="hero__subtitle">Мир вкуса и ароматов</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Лучшие блюда</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images7i/img_2.png" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О нашей кухне</h2>
+                        <p class="about__text">Готовим как по традиционным, так и по авторским рецептам. </p>
+                        <p class="about__text">Русская, европейская, особенно итальянская, кухня.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Уникальные рецепты</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Всегда свежие ингридиенты</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Уютная атмосфера</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Лучшие блюда</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Шницел</h3>
+                                <span class="menu-item__price">920р.</span>
+                            </div>
+                            <p class="menu-item__description">Шницель из индейки с зеленью аллюмет</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Равиоли</h3>
+                                <span class="menu-item__price">1190р.</span>
+                            </div>
+                            <p class="menu-item__description">Равиоли с сыром рикотта и белыми грибами</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Сет</h3>
+                                <span class="menu-item__price">990р.</span>
+                            </div>
+                            <p class="menu-item__description">Сет мезе с фирменным хлебом BABKA</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Буратта</h3>
+                                <span class="menu-item__price">720р.</span>
+                            </div>
+                            <p class="menu-item__description">Буратта с узбекскими томатами</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Казаречче</h3>
+                                <span class="menu-item__price">920р.</span>
+                            </div>
+                            <p class="menu-item__description">>Казаречче с креветками и цукини</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Авокадо</h3>
+                                <span class="menu-item__price">480р.</span>
+                            </div>
+                            <p class="menu-item__description">Авокадо тост с яйцом пашот на тартине</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Новая гастрономическая точка на карте Петроградки, словно
+                             недостающий акцент в квартале, где до сих пор явно ощущалась нехватка утреннего
+                              ритуала с кофе и завтраком.</p>
+                        <div class="review__author">
+                            <img src="images7i/anton.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Антон</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Матча вкусная, само тело неочень плотное, кокосовое молоко
+                             используют от Planto, матчи и молока не жалеют, получаются честные 300-350 мл</p>
+                        <div class="review__author">
+                            <img src="images7i/elisa.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Алиса</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Очень рада открытию точки на Петроградке, наконец удалось зайти. 
+                            Очень уютное чистое кафе с эстетичным интерьером, сотрудники приятные и вежливые, 
+                            все быстро, без длительного ожидания</p>
+                        <div class="review__author">
+                            <img src="images7i/Alica.webp" alt=""
+                                class="review__photo">
+                            <span class="review__name">Елизавета</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Санкт-Петербург, Малый просп. Петроградской стороны, 48</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7 (911) 940-22-77</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>babkab2b@cafe</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Ежедневно с 9:00 до 21:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                       <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?feedback=object%2Fadd&feedback-context=toponym.add_object&ll=30.297219%2C59.960309&source=serp_navig&utm_medium=mapframe&utm_source=maps&z=18.38" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?feedback=object%2Fadd&feedback-context=toponym.add_object&ll=30.297219%2C59.960309&source=serp_navig&z=18.38" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">bistro &emsp;<span>Бабка Китчен</span></a>
+                    <p class="footer__text">Мир вкусов и ароматов</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная </a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright. Всеправа защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
